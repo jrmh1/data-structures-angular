@@ -1,0 +1,9 @@
+<p>destination-list works!</p>
+<h3>{{ listTitle }}</h3>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Destination" />
+<button class="btn btn-primary" (click)="addItem()">Add Destination</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
