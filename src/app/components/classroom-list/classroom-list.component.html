@@ -1,0 +1,9 @@
+<p>classroom-list works!</p>
+<h3>{{ listTitle }}</h3>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Student" />
+<button class="btn btn-primary" (click)="addItem()">Add Student</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
