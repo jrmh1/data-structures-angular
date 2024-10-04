@@ -1,0 +1,9 @@
+<p>phonecontact-list works!</p>
+<h3>{{ listTitle }}</h3>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Contact" />
+<button class="btn btn-primary" (click)="addItem()">Add Contact</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
