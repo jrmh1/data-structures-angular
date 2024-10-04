@@ -1,0 +1,11 @@
+<p>course-list works!</p>
+
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add course" />
+<button class="btn btn-primary" (click)="addCourse()">Add Course</button>
+
+<ul>
+  <li *ngFor="let course of items">
+      {{ course }}
+  </li>
+</ul>
