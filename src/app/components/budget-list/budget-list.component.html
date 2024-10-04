@@ -1,0 +1,9 @@
+<p>budget-list works!</p>
+<h3>{{ listTitle }}</h3>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Budget Item" />
+<button class="btn btn-primary" (click)="addItem()">Add Budget Item</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
