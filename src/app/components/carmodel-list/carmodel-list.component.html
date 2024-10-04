@@ -1,0 +1,9 @@
+<p>carmodel-list works!</p>
+<h3>{{ listTitle }}</h3>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add new car model" />
+<button class="btn btn-primary" (click)="addItem()">Add Car Model</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
