@@ -1,0 +1,27 @@
+nav {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+
+nav button {
+  
+  background-color: #122436; 
+  color: white; 
+  border: none; 
+  padding: 10px 15px; 
+  width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+nav button:last-child {
+  margin-right: 0;
+}
+
+nav button:hover {
+  background-color: #38661a;
+}
